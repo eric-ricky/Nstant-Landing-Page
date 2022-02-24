@@ -76,7 +76,6 @@ const useStyles = makeStyles((theme) => ({
 
   bannerImage: {
     width: "100%",
-    background: "#123456",
   },
 }));
 
