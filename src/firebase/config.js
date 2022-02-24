@@ -14,14 +14,6 @@ const firebaseConfig = {
   messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
   appId: process.env.REACT_APP_APP_ID,
 };
-// const firebaseConfig = {
-//   apiKey: "AIzaSyBseCSWafB4FdxhBO0SA1VEJj7AoxQWeXY",
-//   authDomain: "nstant-food-delivery.firebaseapp.com",
-//   projectId: "nstant-food-delivery",
-//   storageBucket: "nstant-food-delivery.appspot.com",
-//   messagingSenderId: "855690437384",
-//   appId: "1:855690437384:web:9fa3a4851fdc8b16fa82bd",
-// };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
